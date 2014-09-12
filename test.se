@@ -1,0 +1,4 @@
+num = block.number
+hash = block.prevhash
+time = block.timestamp
+

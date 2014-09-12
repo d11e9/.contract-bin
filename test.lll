@@ -1,0 +1,26 @@
+{
+	[[0x0]] (number)
+	[[0x1]] (number)
+
+	(returnlll {
+
+		; update most recent block number
+		[[0x1]] (number)
+
+		[[(number)]] (caller)
+
+		[later] (+ 5 (number))
+
+		
+
+		(if (> @fivefromnow @@0x1) {
+		
+		} {
+
+		})
+
+		[[(number)]] (caller)
+		(return 0x0)
+
+	})
+}

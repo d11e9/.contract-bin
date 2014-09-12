@@ -1,0 +1,20 @@
+{
+
+    [[0x0]] (caller)
+    [[0x1]] (number)
+    [[0x2]] (origin)
+
+    (returnlll {
+
+        [[0x3]] (caller)
+        [[0x4]] (origin)
+
+        [[0x5]] (calldataload (* 0 32))
+        [[0x6]] (calldataload (* 1 32))
+        [[0x7]] (calldataload (* 2 32))
+        [[0x8]] (calldataload (* 3 32))
+
+        (return 1)
+
+    })
+}

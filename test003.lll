@@ -1,0 +1,31 @@
+{
+
+    [[0x0]] (caller)
+    [[0x1]] (number)
+    [[0x2]] (origin)
+
+    (create {
+
+        [[0x0]] "sub contract"
+        [[0x1]] (number)
+        [[0x2]] (caller) ; This is the address of the contract that created this one.  
+
+        (returnlll {
+
+            [[0x3]] (caller)
+            [[0x4]] (origin)
+
+            (return 1)
+
+        })
+    })   
+
+    (returnlll {
+
+        [[0x3]] (caller)
+        [[0x4]] (origin)
+
+        (return 1)
+
+    })
+}
